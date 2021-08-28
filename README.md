@@ -33,7 +33,14 @@ Array [
     }
    ]
 ```
-## Ui Example
+## Ui Examples
+
+### iOs
 <kbd>
     <img src="https://github.com/Edropem/puzzle-challenge/blob/master/images/CarouselExampleGif.gif?raw=true" style="border: 1px solid black" />
 </kbd>
+
+### Android
+<kbd>
+  <img src="https://github.com/Edropem/puzzle-challenge/blob/master/images/Puzzle-example-android%20(1).gif?raw=true"/>
+ </kbd>
