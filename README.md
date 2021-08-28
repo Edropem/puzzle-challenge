@@ -10,7 +10,7 @@ Use the package manager [npm](https://www.npmjs.com) to install dependencies.
 npm install
 ```
 
-To render the app make sure to have Expo installed, and simply run 
+To render the app make sure to have [Expo](http://www.expo.io) installed, and simply run 
 
 ```bash
 npm start
