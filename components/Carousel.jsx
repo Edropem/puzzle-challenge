@@ -26,12 +26,14 @@ export default function Carousel({ blocks }) {
         if (currentIndex <= blocks.length - 1) {
             currentIndex++;
             listViewRef.scrollToIndex({ index: currentIndex, viewPosition: 0.5 })
+            setActiveIndex(currentIndex + 1)
         }
     }
     const prevButonHandler = () => {
         if (currentIndex > 1) {
             currentIndex = currentIndex - 1;
             listViewRef.scrollToIndex({ index: currentIndex, viewPosition: 0.5 })
+            setActiveIndex(currentIndex)
         }
     }
 
@@ -70,8 +72,9 @@ export default function Carousel({ blocks }) {
                 }
             />
             <View style={{ flexDirection: 'row', justifyContent: 'space-around' }}>
-                <Button
 
+
+                <Button
                     title="<"
                     onPress={prevButonHandler}
                     disabled={activeIndex <= 1}
